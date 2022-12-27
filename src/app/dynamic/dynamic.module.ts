@@ -2,20 +2,20 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { DynamicRoutingModule } from './dynamic-routing.module';
-import { DynamicDashboardComponent } from './dynamic-dashboard/dynamic-dashboard.component';
-import { DynamicAdminComponent } from './dynamic-admin/dynamic-admin.component';
-import { DynamicUserComponent } from './dynamicAdmin/dynamic-user/dynamic-user.component';
+import { DynamicComponent } from './dynamic.component';
+import { DynamicAdminModule } from './dynamic-admin/dynamic-admin.module';
+import { DynamicDashboardModule } from './dynamic-dashboard/dynamic-dashboard.module';
 
 
 @NgModule({
   declarations: [
-    DynamicDashboardComponent,
-    DynamicAdminComponent,
-    DynamicUserComponent
+    DynamicComponent,
   ],
   imports: [
     CommonModule,
-    DynamicRoutingModule
-  ]
+    DynamicRoutingModule,
+    DynamicAdminModule,
+    DynamicDashboardModule
+  ],
 })
 export class DynamicModule { }

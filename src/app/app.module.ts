@@ -1,29 +1,24 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DynamicModule } from './dynamic/dynamic.module';
 /*-----------------------------------------------------------*/
-import { DynamicComponent } from './dynamic/dynamic.component';
-import { UserComponent } from './user/user.component';
-import { StudentComponent } from './student/student.component';
-import { EmployeeComponent } from './employee/employee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     /*-----------*/
-    DynamicComponent,
-    UserComponent,
-    StudentComponent,
-    EmployeeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
     /*---------*/
+    DynamicModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
 })
 export class AppModule { }

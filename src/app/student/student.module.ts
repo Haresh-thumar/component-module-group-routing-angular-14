@@ -5,15 +5,15 @@ import { StudentRoutingModule } from './student-routing.module';
 import { StudentAdminComponent } from './student-admin/student-admin.component';
 import { StudentDashboardComponent } from './student-dashboard/student-dashboard.component';
 import { StudentTagComponent } from './student-tag/student-tag.component';
-import { StudentAdminstudentDataComponent } from './student-adminstudent-data/student-adminstudent-data.component';
+import { StudentComponent } from './student.component';
 
 
 @NgModule({
   declarations: [
+    StudentComponent,
     StudentAdminComponent,
     StudentDashboardComponent,
     StudentTagComponent,
-    StudentAdminstudentDataComponent
   ],
   imports: [
     CommonModule,

@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { UserTagRoutingModule } from './user-tag-routing.module';
+import { UserTagComponent } from './user-tag.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    UserTagComponent
+  ],
   imports: [
     CommonModule,
     UserTagRoutingModule

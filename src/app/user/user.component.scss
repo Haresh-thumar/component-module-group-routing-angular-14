@@ -1,0 +1,39 @@
+.user-nav {
+  width: 98%;
+  display: inline-flex;
+  padding: 20px 15px 20px 15px;
+  margin: 0;
+  border-radius: 5px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: rgb(233, 0, 175);
+}
+
+.user-nav li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.user-nav li:hover a {
+  background: rgb(255, 221, 0);
+  padding: 20px 20px 20px 20px;
+  color: #000 !important;
+}
+
+.user-nav li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 20px 20px 20px 20px;
+}
+
+.user-nav li a:hover {
+  text-decoration: none;
+}
+
+.outlet-container {
+  margin: 20px 15px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid rgba(233, 0, 175, 0.5);
+  border-radius: 10px;
+}
