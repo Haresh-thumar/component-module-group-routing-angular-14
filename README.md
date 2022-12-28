@@ -1,27 +1,33 @@
-# Routing
+# Multiple Lazy-Loading Module & Components Dynamically Group Routing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.10.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Scrennshot 1
 
-## Code scaffolding
+![image](https://user-images.githubusercontent.com/100337599/209793994-20e623c8-700c-40e7-ad21-423805de13d6.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Scrennshot 2
 
-## Build
+![image](https://user-images.githubusercontent.com/100337599/209794585-3c5a87f0-8c89-4399-aa19-f1334b1ef462.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Scrennshot 3
 
-## Running unit tests
+![image](https://user-images.githubusercontent.com/100337599/209794791-c3b20adc-ed32-43e5-9bd3-05d0a92e4e72.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Scrennshot 4
 
-## Running end-to-end tests
+![image](https://user-images.githubusercontent.com/100337599/209794851-d70fb634-b391-4fd6-98b2-674da1735832.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Scrennshot 5
 
-## Further help
+![image](https://user-images.githubusercontent.com/100337599/209794881-bdc6cace-39b3-4ae0-afe3-d4df58f90d10.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<br>
+
+<h2>* Build & Run Project</h2>
+<ul>
+  <li>ng build</li>
+  <li>ng serve | npm start</li>
+</ul>
